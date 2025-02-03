@@ -1,7 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return <div className="text-3xl text-amber-300">netflix here we come</div>;
+  return <Body />;
 }
 
 export default App;

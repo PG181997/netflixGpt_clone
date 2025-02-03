@@ -11,6 +11,9 @@ Currently, two official plugins are available:
 
     - created react app using vite
     - Configured tailwind css according vite guidlines
+    -Header
+    -Login form
+    -sign up form
 
 # Features
 
