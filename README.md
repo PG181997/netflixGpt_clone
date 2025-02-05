@@ -14,6 +14,16 @@ Currently, two official plugins are available:
     -Header
     -Login form
     -sign up form
+    -Form valadition
+    -Useref hook
+    -Firebase setup
+    -Deploying our app to production
+    -Create signup user account
+    -Implemented sign-in user API
+    -Created redux store with userSlice
+    -Implemented signout
+    -Updated profile
+    -Featch from TMDN movies
 
 # Features
 
@@ -30,3 +40,10 @@ Currently, two official plugins are available:
     -Netflix gpt
         - Search bar
         - Movie suggestions
+
+# Command to deploy the project live using fire base
+
+    -1 Installing fire base - npm install -g firebase-tools
+    -2 Firebase login - Firebase login
+    -3 Initilizing firbase - firbase init, then selecting hosting
+    -4 Deploy command = 'Firebase deploy
