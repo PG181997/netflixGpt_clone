@@ -23,7 +23,18 @@ Currently, two official plugins are available:
     -Created redux store with userSlice
     -Implemented signout
     -Updated profile
-    -Featch from TMDN movies
+    -BugFix: Sign up user displayName and profile picture update
+    -BugFix: If the user is not logged in Reddirect / browse to login page and vice versa
+    -Unsubscribed to the onAuthStateChanged callback
+    -Added hardcoded vlaues to the constants file
+
+        - TMDB
+            - Login to the website
+            - Once logged in go tonedit website
+            - Go to API
+
+    -Regester TMDB API and create an app and get acess token
+    -Get Data from TMDB ow playing movies list API
 
 # Features
 
