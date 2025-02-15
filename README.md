@@ -43,6 +43,11 @@ Currently, two official plugins are available:
     -Update store with tailer video data
     -Embedd the youtube video and make it autoPlay and mute
     -Tailwind class to make main container look good
+    -Build secondary component
+    -Build movie list
+    -Build Movie card
+    -TMDB image CDN URL
+    -added popularMovie, trendingMovies, nowplaying and upcomingMovies custom hooks
 
 # Features
 
