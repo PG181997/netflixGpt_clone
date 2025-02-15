@@ -35,6 +35,14 @@ Currently, two official plugins are available:
 
     -Regester TMDB API and create an app and get acess token
     -Get Data from TMDB ow playing movies list API
+    -Customhook for now playing movies
+    -Create Movie slice
+    -Update store with movies data
+    -Planning for main and secondary container
+    -Fetch data from trailer video
+    -Update store with tailer video data
+    -Embedd the youtube video and make it autoPlay and mute
+    -Tailwind class to make main container look good
 
 # Features
 
