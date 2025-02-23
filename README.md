@@ -52,6 +52,15 @@ Currently, two official plugins are available:
     -gpt search bar
     -Multi-lang feature in out app **
     -Integrate GPT API's(get open AI app)
+    -get search openAI api key
+    -Gpt search api call
+    -fetched gpt movie suggestion from tmdb
+    -created gpt slice added data
+    -reused movie list component to make movie suggestion container
+    -Memoization
+    -added .env file and added it to git igonre
+    -multi language support
+    -made site responsive
 
 # Features
 

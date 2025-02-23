@@ -56,10 +56,14 @@ const Header = () => {
     dispatch(changeLanguage(e.target.value));
   };
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
-      <img src={NETFLIX_LGOG} alt="Netlix logo" className="w-44" />
+    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between md:flex-row flex-col">
+      <img
+        src={NETFLIX_LGOG}
+        alt="Netlix logo"
+        className="w-44 mx-auto md:mx-0"
+      />
       {user && (
-        <div className="flex p-2">
+        <div className="flex p-2 justify-between ">
           {showGptSearch && (
             <select
               className="p-2 m-2 bg-black text-white "
@@ -72,7 +76,11 @@ const Header = () => {
               ))}
             </select>
           )}
-          <img className="w-12 h-12" alt="user_icon" src={user?.photoURL} />
+          <img
+            className="hidden md:block w-12 h-12"
+            alt="user_icon"
+            src={user?.photoURL}
+          />
           <button
             className="font-bold bg-gray-600 w-24 h-12 m-1 rounded-lg text-white hover:bg-gray-500 hover:cursor-pointer"
             onClick={handelGptSearchClick}
