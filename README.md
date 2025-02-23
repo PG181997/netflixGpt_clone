@@ -48,6 +48,10 @@ Currently, two official plugins are available:
     -Build Movie card
     -TMDB image CDN URL
     -added popularMovie, trendingMovies, nowplaying and upcomingMovies custom hooks
+    -Gpt search page
+    -gpt search bar
+    -Multi-lang feature in out app **
+    -Integrate GPT API's(get open AI app)
 
 # Features
 

@@ -8,9 +8,19 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNTFhYzQ2N2Q1MDlhOTVhMzdjMWFjZjQwYTMzODk5MSIsIm5iZiI6MTczODg1NTgxNC41OCwic3ViIjoiNjdhNGQ1ODZkNDdiYzc3Y2I4ODVjMTM4Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.-217KGKn10fkkVhGcyKbHN6fBL_zUSehJ9aBDzzB9vs",
+    Authorization: `Bearer ${import.meta.env.VITE_TMDB_KEY}`,
   },
 };
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const BG_URL =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/fb5cb900-0cb6-4728-beb5-579b9af98fdd/web/IN-en-20250127-TRIFECTA-perspective_cf66f5a3-d894-4185-9106-5f45502fc387_large.jpg";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "english", name: "English" },
+  { identifier: "kannada", name: "Kannada" },
+  { identifier: "japanese", name: "Japanese" },
+];
+
+export const OPENAI_KEY = import.meta.env.VITE_OPENAI_KEY;
